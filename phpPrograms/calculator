@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<h1>CALCULATOR</h1>
+
+<?php
+$a = 10;
+$b = 20;
+echo "First number : ", $a, "\n";
+echo "<br> Second number : ", $b, "\n";
+echo "<br><br>", $a, " + ", $b, " = ", $a+$b;
+echo "<br>", $a, " - ", $b, " = ", $a-$b;
+echo "<br>", $a, " x ", $b, " = ", $a*$b;
+echo "<br>", $a, " / ", $b, " = ", $a/$b;
+?>
+
+</body>
+</html>
