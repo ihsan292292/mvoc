@@ -3,7 +3,6 @@ print('package is imported')
 print(cv2.__version__)
 
 img = cv2.imread('image.jpg',-1)
-print(img)
 cv2.imshow('im',img)
 cv2.waitKey()
 cv2.destroyAllWindows()
